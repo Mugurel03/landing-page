@@ -90,4 +90,40 @@ a {
 
 /*content*/
 
+.content {
+  flex-wrap: wrap;
+  padding: 45px;
+}
+
+.content h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+  flex-flow: row wrap;
+}
+
+.card {
+  max-width: 150px;
+}
+
+.cards p {
+  font-size: 18px;
+  color: #1f2937;
+  opacity: 0.7;
+}
+
+.cards .card .content-img {
+  width: 144px;
+  height: 144x;
+  border-radius: 20px;
+}
 
