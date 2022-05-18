@@ -1,29 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
 
-
-
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  
 }
 
 .container {
-  background-color: #1f2937;
-  color: white;
-  
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 12px;
-  
-
+  flex-direction: column;
 }
 
-ul, a {
-    padding-right: 12px;
-    display: flex;
-    color: white;
+/* for the header*/
+.header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 12px;
+}
+
+ul,
+a {
+  padding-right: 12px;
+  display: flex;
+  color: #f9faf8;
+  gap: 16px;
 }
 
 ul {
@@ -33,3 +36,58 @@ ul {
 a {
   text-decoration: none;
 }
+
+/*hero and image*/
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 90px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+  opacity: 0.7;
+}
+
+.hero-text {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.hero button {
+  display: block;
+  text-align: center;
+  width: 110px;
+  border: none;
+  background: #3882f6;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#image-placeholder {
+  background-color: lightgrey;
+  padding: 120px;
+  width: 250px;
+  justify-content: space-between;
+}
+
+/*content*/
+
+
