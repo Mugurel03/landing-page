@@ -138,6 +138,8 @@ img#duck1 {
   width: 140px;
 }
 
+
+
 /*quote part*/
 
 .quote {
@@ -205,10 +207,8 @@ button.sign-up {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #f9faf8;
-  color: #3882f6;
-}
+
+
 
 /*footer*/
 
