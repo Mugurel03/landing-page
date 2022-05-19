@@ -21,6 +21,7 @@ body {
   padding-left: 12px;
 }
 
+
 ul,
 a {
   padding-right: 12px;
@@ -82,12 +83,13 @@ a {
   cursor: pointer;
 }
 
-#image-placeholder {
-  background-color: grey;
-  padding: 120px;
-  width: 250px;
+img#duck1 {
+  display: flex;
+  padding: 18px;
+  width: 400px;
   justify-content: space-between;
   color: #f9faf8;
+  margin: 0;
 }
 
 /*content*/
@@ -181,7 +183,6 @@ a {
 
 .text {
   font-size: 16px;
-  
 }
 p.big {
   font-weight: bolder;
@@ -198,8 +199,8 @@ button.sign-up {
   font-size: 14px;
   background-color: #3882f6;
   border-radius: 8px;
-  padding: 0.35rem 1.50rem ;
-  color:#f9faf8;
+  padding: 0.35rem 1.5rem;
+  color: #f9faf8;
   font-weight: bolder;
   cursor: pointer;
 }

@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Landing Page</title>
+    <script>
+      var bleep = new Audio();
+      bleep.src = "sounds/duck-sound.mp3";
+    </script>
   </head>
   <body>
     <div class="container">
       <!--header-->
       <div class="header">
-        <div class="logo">Header Logo</div>
+        <div class="logo">The Ducker</div>
         <div class="links">
           <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
+            <li><a href="https://pixabay.com/photos/search/duck/" target="_blank" >More duck photos</a></li>
+            <li><a href="https://www.youtube.com/watch?v=iHMpPoW_-us" target="_blank">Funny duck video</a></li>
+            <li><a href="https://github.com/Mugurel03" target="_blank">Contact me!</a></li>
           </ul>
         </div>
       </div>
@@ -25,20 +29,21 @@
 
       <div class="hero hero-cta">
         <div class="hero-text">
-          <h1>This website is awesome</h1>
+          <h1>Quack quack, I'm a duck!</h1>
           <p>
-            This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lower in contrast
+            I'm a little duck who likes to quack and play all day long!
           </p>
-          <button id="sign-up" type="button" href="#">Sign up</button>
+          <button id="sign-up" type="button" href="#" onmousedown="bleep.play()">Quack me !</button>
         </div>
-        <div id="image-placeholder">This is a place Holder for Image</div>
+        <div id="image-placeholder">
+          <img id="duck1" src="images/duck-first-page.jpg" alt="a duck">
+        </div>
       </div>
 
       <!--content-->
 
       <div class="content">
-        <h1>Some random information.</h1>
+        <h1>Some ducks</h1>
         <div class="cards">
           <div class="card">
             <img class="duck" src="images/duck.jpg" alt="duck" />
@@ -90,7 +95,7 @@
 
       <!--footer part-->
       <footer>
-        <p>Copyright <span>&#169</span> The Odin Project 2022</p>
+        <p>Copyright <span>&#169</span> The Ducker 2022</p>
     </footer>
     </div>
   </body>
