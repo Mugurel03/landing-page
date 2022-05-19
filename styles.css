@@ -106,24 +106,31 @@ a {
 
 .cards {
   display: flex;
-  justify-content: space-around;
-  gap: 32px;
+  justify-content: center;
+  gap: 8rem;
   flex-flow: row wrap;
 }
 
-.card {
-  max-width: 150px;
+ .duck {
+  max-width: 140px;
+  max-height: 140px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 3px;
+  border-color: #3882f6;
+  gap: 8px;
+  
 }
 
 .cards p {
-  font-size: 18px;
+  font-size: 14px;
   color: #1f2937;
   opacity: 0.7;
+  text-align: center;
 }
 
-.cards .card .content-img {
-  width: 144px;
-  height: 144x;
-  border-radius: 20px;
+.card {
+  width: 140px;
 }
+
 
