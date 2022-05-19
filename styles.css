@@ -82,10 +82,11 @@ a {
 }
 
 #image-placeholder {
-  background-color: lightgrey;
+  background-color: grey;
   padding: 120px;
   width: 250px;
   justify-content: space-between;
+  color: #f9faf8;
 }
 
 /*content*/
@@ -111,7 +112,7 @@ a {
   flex-flow: row wrap;
 }
 
- .duck {
+.duck {
   max-width: 140px;
   max-height: 140px;
   display: flex;
@@ -119,7 +120,7 @@ a {
   border-radius: 3px;
   border-color: #3882f6;
   gap: 8px;
-  
+  align-items: center;
 }
 
 .cards p {
@@ -133,4 +134,30 @@ a {
   width: 140px;
 }
 
+/*quote part*/
 
+.quote {
+  display: flex;
+  padding: 80px;
+  justify-content: center;
+  text-align: left;
+  background-color: #e5e7eb;
+  flex-flow: column wrap;
+}
+
+.quote p {
+  font-size: 22px;
+  color: #1f2937;
+  font-style: italic;
+  opacity: 0.9;
+  font-weight: lighter;
+  margin: 0 130px 0;
+  padding-bottom: 22px;
+}
+
+.quote .author {
+  display: flex;
+  text-align: right;
+  font-weight: bold;
+  flex-direction: row-reverse;
+}
